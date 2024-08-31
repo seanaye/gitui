@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Shell
 * use default shell instead of bash on Unix-like OS [[@yerke](https://github.com/yerke)] ([#2343](https://github.com/extrawurst/gitui/pull/2343))
 
+### Added
+* Support for ssh signing via external system binaries. See `gpg.ssh.program` configuration.
+
 ### Fixes
 * respect env vars like `GIT_CONFIG_GLOBAL` ([#2298](https://github.com/extrawurst/gitui/issues/2298))
 
